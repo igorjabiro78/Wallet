@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_gravity="center"
+    >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        >
+        <RelativeLayout
+            android:id="@+id/rtLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/borders"
+            android:padding="10dp"
+            android:layout_margin="1dp"
+
+            >
+            <TextView
+                android:id="@+id/product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="product name"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="date"
+                android:textSize="12dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/colorAccent"
+                android:layout_alignParentRight="true"
+                />
+            <TextView
+                android:id="@+id/qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="quantity"
+                android:textSize="16dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/product"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/exprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price"
+                android:textSize="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/product"
+                />
+            <TextView
+                android:id="@+id/exptotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_columnWeight="3"
+                android:layout_below="@id/product"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

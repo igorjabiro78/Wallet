@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Wallet</string>
+    <string-array name="expense">
+        <item>What are your expenses</item>
+        <item>food</item>
+        <item>Drinks</item>
+        <item>Transport</item>
+        <item>electricity</item>
+    </string-array>
+    <string name="balance">Balance is </string>
+
+    <!--    Printer-->
+
+    <!-- connect页面 -->
+    <string name="text_type">Printer Name</string>
+    <string name="text_porttype">Port Type</string>
+    <string name="text_printway">Transport Mode </string>
+    <string name="TextView_link">contact us</string>
+    <string name="TextView_close">Close</string>
+    <string name="TextView_linktest">Next Page</string>
+    <string name="mes_confail">Connect Fail</string>
+    <string name="mes_consuccess">Connect Success</string>
+    <string name="mes_nextpage">Please Connect </string>
+    <string name="button_btcon">Connect</string>
+
+    <string-array name="print_type">
+        <item>Text</item>
+        <item>Barcode</item>
+        <item>QrCode</item>
+        <item>Table</item>
+    </string-array>
+    <string name="title_activity_tabbed">tabbed</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- FOR OCR and  Barcode-->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <!--OCR-->
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+
+    <!--Barcode-->
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+
+
+</resources>

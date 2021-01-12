@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="Interface">
+<item>Bluetooth</item>
+<item>WIFI</item>
+<item>USB</item>
+<item>Serial</item>
+</string-array>
+
+
+
+</resources>

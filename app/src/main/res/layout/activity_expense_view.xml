@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Expense_view"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingBottom="60dp"
+
+    >
+    <Button
+        android:id="@+id/btnExpPrint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="PRINT"
+        android:background="@color/orange"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/expenseRecycleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:scrollbars="vertical"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabexpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/ic_add_black_24dp"
+        app:rippleColor="@color/colorwhite"
+
+        />
+
+</RelativeLayout>

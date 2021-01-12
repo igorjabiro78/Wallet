@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:orientation="vertical"
+    tools:context=".Income_Form"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Card ID"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="29dp"
+
+                />
+
+            <EditText
+                android:id="@+id/cardincome"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/borders"
+                android:paddingLeft="10dp"
+
+                android:editable="false" />
+
+            <!--    from(names) Textview-->
+            <TextView
+                android:id="@+id/from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="25dp"
+                android:text="From"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="29dp"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+
+                android:background="@drawable/borders"
+                android:paddingLeft="10dp"
+
+                />
+            <!--     amount textview-->
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="Amount"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="29dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <!--    edit text for amount-->
+            <EditText
+                android:id="@+id/money"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+
+                android:background="@drawable/borders"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                />
+            <!--     button-->
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:text="save"
+
+                android:textColor="@color/black"
+                android:background="@color/coral"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
