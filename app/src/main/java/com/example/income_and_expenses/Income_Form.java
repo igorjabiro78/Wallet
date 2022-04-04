@@ -86,7 +86,7 @@ public class Income_Form extends AppCompatActivity {
     void saveIncome(String card,String names, int amount) {
 
         RequestQueue queue = Volley.newRequestQueue(Income_Form.this);
-        String url = "http://192.168.43.242/www/project/access_method/income_access.php?category=insertIncome&cardid=" + card +"&name=" + names + "&amount=" + amount;
+        String url = "http:///www192.168.43.242/project/access_method/income_access.php?category=insertIncome&cardid=" + card +"&name=" + names + "&amount=" + amount;
         Log.d("Req", url);
 // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
